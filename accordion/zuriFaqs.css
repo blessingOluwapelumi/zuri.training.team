@@ -75,3 +75,11 @@ body {
   height: 25px;
 
 }
+
+
+@media (min-width:375px) and (max-width:500px){
+  .accordion .contentBox .top-box-heading {
+    font-weight: 450;
+  }
+  
+}
