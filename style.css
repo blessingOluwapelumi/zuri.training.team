@@ -282,7 +282,7 @@ header .header-logo .logo {
 	margin-bottom: 4em;
 }
 
-.section4-caption {
+#section4-caption {
 	padding-top: 40px;
 }
 
@@ -378,7 +378,7 @@ header .header-logo .logo {
 	width: auto;
 }
 
-.scope .scope-heading-large {
+.scope #scope-heading-large {
 	font-size: 24px;
 	color: #1b1a20;
 	font-weight: 600;
@@ -896,7 +896,7 @@ header .header-logo .logo {
 		font-size: 20px;
 	}
 
-	.scope .scope-heading-large {
+	.scope #scope-heading-large {
 		font-size: 30px;
 		width: auto;
 	}
@@ -1720,7 +1720,7 @@ header .header-logo .logo {
 		width: 439px;
 	}
 
-	.section4-caption {
+	#section4-caption {
 		padding-left: 34px;
 	}
 	.get-started-content {
@@ -1792,7 +1792,7 @@ header .header-logo .logo {
 		margin-left: 7em;
 	}
 
-	.scope .scope-heading-large {
+	.scope #scope-heading-large {
 		font-size: 40px;
 		width: 550px;
 	}
