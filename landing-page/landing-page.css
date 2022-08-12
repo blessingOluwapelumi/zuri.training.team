@@ -1,0 +1,347 @@
+@import url("http://fonts.cdnfonts.com/css/averta-blackitalic");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Averta-Regular", sans-serif;
+}
+
+.hero {
+  height: 800px;
+  background-image: url(images/hero-bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.heroContainer {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  text-align: center;
+}
+.zuri-logo {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.heroText h1 {
+  font-size: 28px;
+  color: #514949;
+  font-weight: 600;
+  margin-bottom: 36px;
+  margin-top: 30px;
+}
+.heroContent p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #514949;
+  opacity: 0.9;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+.heroContent p a {
+  color: #e7332b;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.heroBtns {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: auto;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 92px;
+  margin-bottom: 50px;
+}
+
+.zuriTrainBtn,
+.zuriInternshipBtn:hover {
+  padding: 11px 28px;
+  background-color: #e7332b;
+  border: 1px solid #e7332b;
+  color: #fff;
+  border-radius: 0;
+  text-decoration: none;
+}
+
+.zuriInternshipBtn,
+.zuriTrainBtn:hover {
+  padding: 11px 28px;
+  background-color: transparent;
+  border: 1px solid #e7332b;
+  color: #e7332b;
+  border-radius: 0;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.heading {
+  margin-top: 60px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #e7332b;
+  font-weight: 500;
+  text-align: center;
+}
+#section1 {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  text-align: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.slogan {
+  text-align: center;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  color: #514949;
+  margin-top: 8px;
+  margin-bottom: 64px;
+}
+
+/* SECTION 2 STARTS HERE */
+/* ZURI TRAINING, INTERNSHIP AND TALENT */
+
+#section2 {
+  padding: 30px;
+}
+
+.left-dot, .right-dot{
+	display: none;
+}
+
+
+.programCardContainer {
+  display: grid;
+  gap: 44px;
+}
+
+.programCard {
+  padding: 61px 47px 82px 36px;
+  background-color: #fffafa;
+  width: 100%;
+  text-align: left;
+}
+
+.programCard img {
+  margin-bottom: 48px;
+}
+
+.programCard p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #514949;
+  opacity: 0.9;
+  margin-top: 0;
+  margin-bottom: 1em;
+  text-align: left;
+}
+
+.programCard a {
+  font-size: 16px;
+  line-height: 24px;
+  color: #e7332b;
+  opacity: 0.9;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: left;
+}
+
+/* FOOTER */
+
+.footerContainer {
+  display: grid;
+  margin-top: 5em;
+  text-align: center;
+  margin-bottom: 56px;
+  padding: 30px;
+}
+
+.footerLogo img {
+  width: 150px;
+  margin-bottom: 15px;
+}
+
+.links h3 {
+  font-size: 24px;
+  margin-top: 20px;
+  font-weight: bold;
+  line-height: 24px;
+  color: #514949;
+  margin-bottom: 0.5rem;
+}
+
+.links p {
+  margin-bottom: 1rem;
+  color: #e7332b;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.address .contact {
+  font-size: 24px;
+  margin-top: 20px;
+  font-weight: bold;
+  line-height: 24px;
+  color: #514949;
+  margin-bottom: 0.5rem;
+}
+
+.address p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #514949;
+  opacity: 0.9;
+  margin-bottom: 1rem;
+  width: 200px;
+  text-align: center;
+}
+.address .mail {
+  color: #e7332b;
+}
+
+.social-icons h3 {
+  font-size: 24px;
+  margin-top: 20px;
+  font-weight: bold;
+  line-height: 24px;
+  color: #514949;
+  margin-bottom: 0.5rem;
+}
+
+.social-icons a img {
+  width: 18px;
+  margin-right: 5px;
+}
+
+.ruler {
+  opacity: 0.2;
+  border: 0.7px solid #514949;
+  margin: 30px;
+}
+
+.copyright {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  margin-top: 32px;
+  color: #514949;
+  padding-bottom: 97px;
+  text-align: center;
+}
+
+@media (min-width: 769px) and (max-width: 1530px) {
+  .heroContainer {
+    padding-top: 0px;
+  }
+
+  .zuri-logo {
+    padding: 68px;
+  }
+  .heroBtns {
+    flex-direction: row;
+    margin-top: 79px;
+  }
+  .heroText h1 {
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 36px;
+    font-weight: 550;
+    margin-top: 10px;
+  }
+
+  .heroContent p {
+    width: 680px;
+  }
+
+
+
+  .slogan {
+    width: 380px;
+    text-align: center;
+  }
+
+
+
+
+.footerContainer{
+	display: flex;
+	justify-content: space-between;
+	align-items:baseline;
+	text-align: left;
+}
+
+.footerLogo img {
+	width: 110px;
+	margin-bottom: 0px;
+  }
+
+.links h3, .address .contact, .social-icons h3{
+	font-size: 16px;
+  }
+.address{
+	justify-content: left;
+	text-align: left;
+}
+
+}
+
+.address h3, .address p{
+	text-align: left;
+	
+}
+
+@media screen and (min-width:992px){
+
+	#section2{
+		position: relative;
+	}
+	
+	.programCardContainer{
+		grid-template-columns: 1fr 1fr 1fr;
+	  }
+}
+
+
+@media screen and (min-width:1200px){
+	.left-dot, .right-dot{
+		display: block;
+	}
+
+.left-dot{
+	width: 431px;
+    position: absolute;
+    left: -120px;
+    top: -55px;
+    z-index: -1;
+}
+
+.right-dot{
+	width: 371px;
+    position: absolute;
+    right: -120px;
+    top: -45px;
+    z-index: -1;
+
+}
+}
