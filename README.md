@@ -7,3 +7,6 @@ There are three web pages linked together. (The landing page, I'm new to the ind
 Kindly endeavour to navigate through the pages.
 
 Your review and corrections are welcome.
+
+
+The link to the Repository: https://github.com/blessingOluwapelumi/zuri.training.team
